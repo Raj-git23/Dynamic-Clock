@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Rubik+Maps&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+.welcome-page {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("./img.jpg") no-repeat center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+    z-index: 9999;
+}
+
+.welcome-content {
+    text-align: center;
+    font-family: 'Rubik Maps', sans-serif;
+    color: aliceblue;
+    text-shadow: 4px 3px 6px #a7c0f3;
+    font-size: 25px;
+}
+
+.main-content {
+    display: none;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+}
+
+#time-clock {
+    font-size: 60px;
+    font-family: 'Rubik Maps', sans-serif;
+}
+
+.line-slideshow { 
+    color: #f1f1f1;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 40px;
+    text-shadow: 4px 3px 6px #abc1ec;
+}
+
+@media (max-width: 500px) {
+    #time-clock{
+        font-size: 30px;
+    }
+
+    .line-slideshow{
+        font-size: 22px;
+    }
+
+    .welcome-content{
+        font-size: 8px;
+    }
+}
+
+@media only screen and (min-width:500px) and (max-width: 620px) {
+    #time-clock{
+        font-size: 35px;
+    }
+
+    .line-slideshow{
+        font-size: 25px;
+    }
+
+    .welcome-content{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width:620px) and (max-width: 1050px) {
+    #time-clock{
+        font-size: 30px;
+    }
+
+    .line-slideshow{
+        font-size: 35px;
+    }
+
+    .welcome-content{
+        font-size: 15px;
+    }
+}
