@@ -37,7 +37,7 @@ var lines = [
     "a cosmic dance where every second etches the story of our existence into the fabric of the universe",
     "So always enjoy your time",
     "and HAPPY NEW YEAR 2024",
-    "ENJOY GUYSSS"
+    "ENJOY GUYSSS... "
 ];
 
 var lineIndex = 0;
