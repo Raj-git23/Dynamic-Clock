@@ -34,7 +34,10 @@ var lines = [
     "Merging man and machine",
     "Decrypting extraterrestrial signals",
     "In the vast expanse of space, time whispers the profound narrative of scientific revelation—",
-    "a cosmic dance where every second etches the story of our existence into the fabric of the universe"
+    "a cosmic dance where every second etches the story of our existence into the fabric of the universe",
+    "So always enjoy your time",
+    "and HAPPY NEW YEAR 2024",
+    "ENJOY GUYSSS... "
 ];
 
 var lineIndex = 0;
